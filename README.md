@@ -1,29 +1,44 @@
-<<<<<<< HEAD
-🧠 Project Title:
-"GestureAI: Real-Time Hand Gesture Recognition for Human-Computer Interaction"
+# 🤖 Hand Gesture Recognition
 
-🎯 Objective:
-To develop a hand gesture recognition system that can accurately identify and classify different hand gestures from image or live video feed, enabling gesture-based control for smart devices, applications, and AR/VR systems.
+A real-time hand gesture recognition system using **Python**, **OpenCV**, and optionally **MediaPipe**, capable of detecting and classifying hand gestures via webcam input.
 
-🧩 Key Features:
-Detects hand from image or live webcam feed
+---
 
-Classifies predefined gestures (e.g., thumbs up, stop, okay, victory ✌️, etc.)
+## 📌 Overview
 
-Real-time frame-by-frame prediction
+This project captures live video from the webcam, detects hands using computer vision techniques, and classifies common gestures like ✋, 👌, ✊, etc. It's built for use in HCI (Human-Computer Interaction), gesture-controlled systems, and smart automation.
 
-UI for live gesture detection (optional)
+---
 
-Optionally integrated with system control actions (volume up/down, etc.)
+## 🚀 Features
 
-📦 Tools & Libraries Required:
-Category	Libraries
-Core Language	Python 3.x
-Image Processing	OpenCV, Mediapipe
-ML/DL Frameworks	TensorFlow or PyTorch
-Model Utilities	NumPy, Scikit-learn
-Visualization	Matplotlib, Seaborn
-Optional UI	Streamlit / Tkinter (for live GUI)
-=======
-# Hand-Gesture-Recognition
->>>>>>> bdd28451439a7dc3c44eea8d4cc8dcbe08f3560e
+- 🎥 Real-time video feed using OpenCV
+- ✋ Hand detection and tracking
+- 🧠 Gesture classification using custom logic or ML model
+- 🔧 Easy to extend for custom gestures or actions
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology  | Role                            |
+|-------------|----------------------------------|
+| Python      | Main programming language        |
+| OpenCV      | Real-time image processing       |
+| MediaPipe   | (Optional) Hand landmark detection |
+| NumPy       | Matrix and image manipulation    |
+| scikit-learn / TensorFlow (optional) | Gesture classification |
+
+---
+
+## 📁 Project Structure
+
+```bash
+Hand-Gesture-Recognition/
+├── gestures/                # Folder for training gesture images (if any)
+├── models/                  # Saved ML model (if used)
+├── main.py                  # Main script for gesture detection
+├── utils.py                 # Helper functions
+├── README.md                # Project documentation
+└── requirements.txt         # Dependencies
+ 
