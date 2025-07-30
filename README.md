@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 🧠 Project Title:
 "GestureAI: Real-Time Hand Gesture Recognition for Human-Computer Interaction"
 
@@ -23,3 +24,6 @@ ML/DL Frameworks	TensorFlow or PyTorch
 Model Utilities	NumPy, Scikit-learn
 Visualization	Matplotlib, Seaborn
 Optional UI	Streamlit / Tkinter (for live GUI)
+=======
+# Hand-Gesture-Recognition
+>>>>>>> bdd28451439a7dc3c44eea8d4cc8dcbe08f3560e
